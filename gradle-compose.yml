@@ -4,7 +4,7 @@ replacements:
   group: "dev.tr7zw"
   name: "Exordium"
   id: "exordium"
-  version: "1.2.1"
+  version: "1.2.2"
   author: "tr7zw"
   relocationpackage: "dev.tr7zw.exordium"
   licensename: "LICENSE"
@@ -24,13 +24,12 @@ subProjects:
     template: "Fabric"
     replacements:
       dependencies: '
-          modImplementation "maven.modrinth:immediatelyfast:1.2.5+1.20.2"
+          modImplementation "maven.modrinth:immediatelyfast:1.2.8+1.20.4"
 
-          modImplementation "maven.modrinth:spark:XGW2fviP"
+          modImplementation "maven.modrinth:spark:FeV5OquF"
 
-          modImplementation "maven.modrinth:sodium:mc1.20.2-0.5.3"
-
-          include(implementation(annotationProcessor("io.github.llamalad7:mixinextras-fabric:0.2.0-rc.2")))
+          modImplementation "maven.modrinth:sodium:mc1.20.4-0.5.5"
+          
       '
   FG-Forge:
     template: "Forge"
